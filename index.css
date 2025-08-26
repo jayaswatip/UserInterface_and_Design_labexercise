@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+}
